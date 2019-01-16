@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <script src="../js/analytics.js" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <title>Quotes</title>
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'>
+
+  <link rel="stylesheet" href="../css/settings.css">
+  
+</head>
+
+<body>
+
+  <div class="about-ext">
+    <a target="_blank" href="http://akashgupta.xyz/influencer">About</a>
+  </div>
+
+  <div class="own-quote">
+    <a href="settings.html">Settings</a>
+  </div>
+
+  <div class='container'>
+  <div class='info'>
+    <h1 class="white" style="font-size:28px;"><b>Influencer</b></h1>
+    <h3 class="white" style="font-weight: 500;">Add your favorite quotes/comments here</h3>
+  </div>
+  
+  <div class='modal'>
+
+    <div class=''>
+      <div class='form first'>
+
+          <div class='input-group'>
+
+              <div class="m-table black-b">
+                <div class="m-table-head">
+                  <table>
+                    <thead>
+                      <tr class="row100">
+                        <th class="column2">#</th>
+                        <th class="column6">Quotes</th>
+                        <th class="column3">Author</th>
+                        <th class="column2">Delete</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+
+                <div id="m-table-quotes" class="m-table-body">
+                  <table id="websitesTable">
+                    <tbody id="quotesList" class="list">
+
+                      <!-- <tr class="row100 body">
+                        <td class="column6 text-center">
+                          If you really want to do something..
+                        </td>
+
+                        <td class="column1 text-center">
+                        	Jim Rohn
+                        </td>
+
+                        <td class="column2 text-center">
+                          <a style="color:#25C18C; text-decoration: none; font-size:18px;" href="#">&#10008;</a>
+                        </td>
+                      </tr> -->
+                      
+                    </tbody>
+                  </table>
+                </div>
+
+                
+                <p id="scr" class="text-center white">Add quote</p>
+                <hr>
+                <input placeholder="Your quote here.." id="addingQuote" style="font-size:23px; font-weight: 200;" class="white" type="text" autocomplete="off">
+                <hr>
+                <input placeholder="Author" id="addingAuthor" style="font-size:23px; font-weight: 200;" class="white" type="text" autocomplete="off">
+              </div>
+              
+          </div>
+
+      </div>	
+    </div>
+	
+    <footer class='footer'>
+      <input type="button" id="addSite" class="button" value="Add">
+    </footer>
+    
+      <div id="error"></div>
+  </div>
+
+
+</div>
+  <script src='../js/jquery.min.js'></script>
+  <script  src="../js/quotes.js"></script>
+
+</body>
+
+</html>

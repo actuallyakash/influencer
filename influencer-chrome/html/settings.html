@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="../js/analytics.js" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <title>Settings</title>
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'>
+
+  <link rel="stylesheet" href="../css/settings.css">
+  
+</head>
+
+<body>
+  <div class="about-ext">
+    <a target="_blank" href="http://akashgupta.xyz/influencer">About</a>
+  </div>
+
+  <div class="own-quote">
+    <a href="quotes.html">Add Your Own Quote</a>
+  </div>
+
+  <div class='container'>
+  <div class='info'>
+    <h1 class="white" style="font-size:28px;"><b>Influencer</b> Settings</h1>
+    <h3 class="white" style="font-weight: 500;">Add distracting websites here</h3>
+    <h4 class="white distraction">Distraction Attempts: <span id="d-num" class="white">0</span></h4>
+  </div>
+  
+  <div class='modal'>
+    <div class=''>
+      <div class='form first'>
+
+          <div class='input-group'>
+
+              <div class="m-table black-b">
+                <div class="m-table-head">
+                  <table>
+                    <thead>
+                      <tr class="row100">
+                        <th class="column2">&#10004;</th>
+                        <th class="column1">Website</th>
+                        <th class="column2">Delete</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+
+                <div class="m-table-body">
+                  <table id="websitesTable">
+                    <tbody id="websitesList" class="list">
+
+                      <!-- <tr class="row100 body">
+                        <td class="column2 text-center">
+                          <input type="checkbox" name="check-box" />
+                        </td>
+                        <td style="font-size:18px;" class="column1 text-center">akashgupta.xyz</td>
+                        <td class="column2 text-center">
+                          <a style="color:#25C18C; text-decoration: none; font-size:18px;" href="#">&#10008;</a>
+                        </td>
+                      </tr> -->
+                      
+                    </tbody>
+                  </table>
+                </div>
+
+                <p class="text-center white">Add website</p>
+                <input placeholder="Add distractions here.." id="addingSite" style="font-size:23px; font-weight: 200;" class="white" type="text" autocomplete="off">
+              </div>
+              
+          </div>
+
+      </div>	
+    </div>
+	
+    <footer class='footer'>
+      <input type="button" id="addSite" class="button" value="Add">
+    </footer>
+    
+      <div id="error"></div>
+  </div>
+
+
+</div>
+  <script src='../js/jquery.min.js'></script>
+  <script src="../js/settings.js"></script>
+
+</body>
+</html>

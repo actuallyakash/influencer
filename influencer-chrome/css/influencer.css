@@ -1,0 +1,164 @@
+/*
+ Escuela font by punksafetypin(https://punksafetypin.deviantart.com/)
+*/
+
+/*
+  "Icons" by Font-awesome(https://fontawesome.com), used under CC BY / Desaturated from original  
+*/
+@font-face {
+  font-family: 'escuela';
+  src: url('escuela/escuela.ttf') format('truetype');
+}
+
+body,
+html {
+  text-align: center;
+  font: normal 100%/1.5 escuela, sans-serif;
+  font-weight: 900;
+}
+
+blockquote,p,cite {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-style: normal;
+}
+
+a, a:visited {
+  display: inline-block;
+  padding: 1px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #8aa651;
+}
+
+.animated {
+  transition: all 500ms ease;
+}
+
+
+/** 
+ * Button
+ */
+.button {
+  display: inline-block;
+  background: none;
+  border: 0;
+  font: 300 81.25%/1 Open Sans, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  padding: 16px 24px;
+  background-color: #ccc;
+  color: white;
+  border-radius: 3px;
+}
+
+.button.new-quote {
+  background-color: white;
+  color: #8aa651;
+}
+
+
+/**
+ * Quote Component
+ */
+.quote {
+  max-width: 648px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  quotes: "“" "”" "‘" "’";
+}
+
+/*.quote::before {
+  font-size: 86px;
+  font-family: Georgia, serif;
+  line-height: 1.5rem;
+  content: open-quote;
+  color: rgba(255,255,255,0.4);
+}*/
+
+.quote__body {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 150%;
+  letter-spacing: 0.085em;
+}
+
+.quote__cite {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 112.5%;
+  letter-spacing: 0.085em
+}
+
+/**
+ * responsive
+ */
+@media screen and (min-width: 650px) {
+  .page {
+    padding-top: 6rem;
+  }
+  .quote::before {
+    font-size: 100px;
+    line-height: 4rem;
+  }
+  .quote__body {
+    font-size: 220%;
+    margin-bottom: 3rem;
+  }
+  .quote__cite {
+    font-size: 125%;
+  }
+  .cta {
+    margin-top: 6rem;  
+    margin-bottom: 6rem;
+  }
+}
+
+.quote img
+{
+  width: 50px;
+  height: 50px;
+}
+
+/*Own Quote*/
+.own-quote a
+{
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  position: relative;
+  top:-120px;
+}
+
+.own-quote
+{
+  text-align: right;
+}
+
+.own-quote a:hover
+{
+  color: #E5E5E5;
+}
+
+/*About Extension*/
+.about-ext a
+{
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  position: relative;
+  top:-99px;
+}
+
+.about-ext
+{
+  text-align: left;
+}
+
+.about-ext a:hover
+{
+  color: #E5E5E5;
+}
