@@ -1,0 +1,106 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *  
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *  
+ *  It's divided to the following sections:
+ *  
+ *     |
+       |-->   - Width between 1200px to 0
+       |-->   - Width between 767px to 0
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start GLOBAL CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    
+    body {
+        overflow: auto;
+    }
+    
+    .into .left-intro {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    #marginTranslateX {
+        transform: translateX(0);
+        transition: transform 0.5s ease-in-out;
+        position: relative;
+    }
+    
+    .main-right {
+        width: 100%;
+        float:none;
+    }
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Header - Home 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 300px) {
+	
+	.into .box-right-intro h2 {
+		font-family: 'Dosis', sans-serif;
+		text-transform: uppercase;
+		line-height: 1.5;
+		font-size: 35px;
+	}
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Statistics 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+	.statistics .box-statistics {
+		text-align: left;
+	}
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Portfolio 
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+	
+	ul.filter-menu li a {
+		padding: 7px 0px !important;
+		line-height: 3 !important;
+	}
+	
+}
+
+@media (max-width: 350px) {
+	
+	.portfolio-item .portfolio-info h2 {
+		padding-top: 20px !important;
+		padding-bottom: 10px !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End  
+/*-----------------------------------------------------------------------------------*/

@@ -1,0 +1,197 @@
+body{
+  background-color: #eff1f2; /** or it can be #F3F3F3 **/
+  font-size:14px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#status 
+{
+    height:200px;
+    min-width:300px;
+    word-wrap: break-word;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+#icon
+{
+  width: 35px;
+  height: 35px;
+}
+
+/* ======================================== \
+ ========== OBVIOUS BUTTONS CSS ===========
+\========================================= */
+/**
+ * Obvious Buttons 0.1
+ * https://github.com/skidding/obvious-buttons
+ *
+ * (c) 2014+ Ovidiu Cherecheș
+ * http://skidding.mit-license.org
+ */
+
+.button {
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 37px;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-timing-function: linear;
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.2s;
+  -o-transition-timing-function: linear;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  background: #fafafa;
+  color: #222;
+}
+.button i {
+  line-height: 37px;
+}
+.button:active,
+.button:active i {
+  line-height: 40px;
+}
+.button.button-primary,
+.button.button-info,
+.button.button-success,
+.button.button-warning,
+.button.button-danger,
+.button.button-inverse {
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button:hover,
+.button:focus {
+  background: #e6e6e6;
+  color: #222;
+}
+.button.button-primary {
+  background: #0088cc;
+  color: #fafafa;
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  background: #006da3;
+  color: #fafafa;
+}
+.button.button-info {
+  background: #49afcd;
+  color: #fafafa;
+}
+.button.button-info:hover,
+.button.button-info:focus {
+  background: #339bba;
+  color: #fafafa;
+}
+.button.button-success {
+  background: #5bb75b;
+  color: #fafafa;
+}
+.button.button-success:hover,
+.button.button-success:focus {
+  background: #47a247;
+  color: #fafafa;
+}
+.button.button-warning {
+  background: #faa732;
+  color: #fafafa;
+}
+.button.button-warning:hover,
+.button.button-warning:focus {
+  background: #f9960a;
+  color: #fafafa;
+}
+.button.button-danger {
+  background: #da4f49;
+  color: #fafafa;
+}
+.button.button-danger:hover,
+.button.button-danger:focus {
+  background: #d0312a;
+  color: #fafafa;
+}
+.button.button-inverse {
+  background: #363636;
+  color: #fafafa;
+}
+.button.button-inverse:hover,
+.button.button-inverse:focus {
+  background: #222222;
+  color: #fafafa;
+}
+.button span {
+  pointer-events: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+.button:active {
+  box-shadow: none !important;
+}
+.button-small {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 28px;
+}
+.button-small i {
+  line-height: 28px;
+}
+.button-small:active,
+.button-small:active i {
+  line-height: 30px;
+}
+.button-small.button-primary,
+.button-small.button-info,
+.button-small.button-success,
+.button-small.button-warning,
+.button-small.button-danger,
+.button-small.button-inverse {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*icons*/
+#blacklist img
+{
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top:3px;
+}
+
+#whitelist img
+{
+  width: 17px;
+  height: 17px;
+  position: relative;
+  top:3px;
+}
