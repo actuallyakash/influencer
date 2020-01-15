@@ -7,6 +7,6 @@ It's created to help you to stop wasting time watching fail videos on Facebook, 
 
 You can add time-wasting websites through the extension button directly or in the settings menu. You can add more motivational quotes, comments, deadlines in the quotes page which motivates you.
 
-Influencer is available for both [Chrome](https://chrome.google.com/webstore/detail/influencer-productive-mot/dfgpeekcneclmfdalhopgneoaedfkfbl) & [Firefox](https://addons.mozilla.org/en-US/firefox/addon/influencer/).
+Influencer is available for [Chrome](https://chrome.google.com/webstore/detail/influencer-productive-mot/dfgpeekcneclmfdalhopgneoaedfkfbl), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/influencer/) & [Edge](https://microsoftedge.microsoft.com/addons/detail/eidmadimoobplooiajlgoedlaoiphhab).
 
 📃 [Installation instructions](https://developer.chrome.com/extensions/getstarted#unpacked)
