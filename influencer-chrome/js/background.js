@@ -94,6 +94,6 @@ function url_domain(data) {
 
   chrome.webNavigation.onCommitted.addListener(validateUrl);
 
-  chrome.runtime.setUninstallURL("http://www.akashgupta.xyz/influencer/feedback");
+  chrome.runtime.setUninstallURL("https://actuallyakash.github.io/influencer/feedback");
 
 })();

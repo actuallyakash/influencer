@@ -1,4 +1,4 @@
-# [Influencer: Productive & Motivational](http://akashgupta.xyz/influencer) ✊
+# [Influencer: Productive & Motivational](https://actuallyakash.github.io//influencer) ✊
 Chrome/Firefox extension to block websites which distract you from your goals by showing a kick-ass quote at the right time to get you back on track.
 
 🔥 Provides a dose of Motivation at the right time by blocking distractions! 🔥
